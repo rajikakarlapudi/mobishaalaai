@@ -1,0 +1,32 @@
+.home-container {
+    width: 80%;
+  }
+  
+  .dataset-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .dataset {
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dataset-details {
+    margin-top: 20px;
+  }
+  
+  .dataset-details table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .dataset-details th, .dataset-details td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
